@@ -67,12 +67,9 @@ main()
                 if(m_edge == n-1) break;
             }
         }
-        if(flag) {
-            cout<<endl;
-            flag=1;
-        }
+        if(flag) cout<<endl;
         cout<<weight<<endl<<weight1<<endl;
-
+        flag=1;
     }
 }
 
